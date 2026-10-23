@@ -34,6 +34,7 @@ jobs:
           ndk-version: r26c
           build-tools-version: 34.0.0
           cmdline-tools-version: latest
+          packages: platforms;android-34,build-tools;34.0.0,ndk;26.1.10909125
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -77,6 +78,7 @@ jobs:
         with:
           api-level: 34
           build-tools-version: 34.0.0
+          packages: platforms;android-34,build-tools;34.0.0
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -113,6 +115,7 @@ jobs:
         with:
           api-level: 34
           build-tools-version: 34.0.0
+          packages: platforms;android-34,build-tools;34.0.0
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -155,6 +158,7 @@ jobs:
           ndk-version: r26c
           build-tools-version: 34.0.0
           cmdline-tools-version: latest
+          packages: platforms;android-34,build-tools;34.0.0,ndk;26.1.10909125
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
