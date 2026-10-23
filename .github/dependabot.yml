@@ -1,0 +1,46 @@
+version: 2
+updates:
+  - package-ecosystem: "gradle"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+    open-pull-requests-limit: 10
+    groups:
+      android-dependencies:
+        patterns:
+          - "androidx.*"
+          - "com.google.android.*"
+          - "com.android.*"
+      kotlin-dependencies:
+        patterns:
+          - "org.jetbrains.kotlin*"
+      compose-dependencies:
+        patterns:
+          - "androidx.compose*"
+      networking-dependencies:
+        patterns:
+          - "com.squareup.okhttp*"
+          - "com.squareup.retrofit*"
+          - "com.squareup.moshi*"
+      coil-dependencies:
+        patterns:
+          - "io.coil-kt*"
+      room-dependencies:
+        patterns:
+          - "androidx.room*"
+      coroutines-dependencies:
+        patterns:
+          - "org.jetbrains.kotlinx:kotlinx-coroutines*"
+      serialization-dependencies:
+        patterns:
+          - "org.jetbrains.kotlinx:kotlinx-serialization*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "06:00"
+    open-pull-requests-limit: 5
