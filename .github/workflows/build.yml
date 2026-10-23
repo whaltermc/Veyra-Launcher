@@ -29,7 +29,7 @@ jobs:
 
       - name: Set up Android SDK
         run: |
-          sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;26.1.10909125"
+          /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;26.1.10909125"
         env:
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
@@ -72,7 +72,7 @@ jobs:
 
       - name: Set up Android SDK
         run: |
-          sdkmanager "platforms;android-34" "build-tools;34.0.0"
+          /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0"
         env:
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
@@ -108,7 +108,7 @@ jobs:
 
       - name: Set up Android SDK
         run: |
-          sdkmanager "platforms;android-34" "build-tools;34.0.0"
+          /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0"
         env:
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
@@ -148,7 +148,7 @@ jobs:
 
       - name: Set up Android SDK
         run: |
-          sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;26.1.10909125"
+          /usr/local/lib/android/sdk/cmdline-tools/latest/bin/sdkmanager "platforms;android-34" "build-tools;34.0.0" "ndk;26.1.10909125"
         env:
           ANDROID_SDK_ROOT: /usr/local/lib/android/sdk
 
