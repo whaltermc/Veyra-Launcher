@@ -1,5 +1,5 @@
 <resources>
-    <style name="Theme.Veyra" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Theme.Veyra" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color -->
         <item name="colorPrimary">@color/primary</item>
         <item name="colorPrimaryVariant">@color/primary_variant</item>
@@ -24,8 +24,6 @@
         <!-- Error -->
         <item name="colorError">@color/error</item>
         <item name="colorOnError">@color/on_error</item>
-        <!-- Custom -->
-        <item name="android:fontFamily">@font/veyra_font</item>
     </style>
 
     <style name="Theme.Veyra.Splash" parent="Theme.Veyra">
