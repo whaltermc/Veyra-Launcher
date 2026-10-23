@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <include domain="database" path="veyra.db" />
+    <include domain="sharedpref" path="settings.xml" />
+    <include domain="file" path="instances/" />
+    <exclude domain="file" path="instances/*/logs/" />
+    <exclude domain="file" path="caches/" />
+</full-backup-content>

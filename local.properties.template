@@ -1,0 +1,14 @@
+# Termux build configuration
+# Copy this to local.properties and adjust paths
+
+# Android SDK path in Termux
+sdk.dir=/data/data/com.termux/files/usr/opt/android-sdk
+
+# Termux aapt2 binary (substituted for system aapt2)
+# aapt2.path=/data/data/com.termux/files/usr/bin/aapt2
+
+# NDK path (if needed for native libraries)
+# ndk.dir=/data/data/com.termux/files/usr/opt/android-ndk
+
+# Java home for Termux
+# org.gradle.java.home=/data/data/com.termux/files/usr/lib/jvm/openjdk-17

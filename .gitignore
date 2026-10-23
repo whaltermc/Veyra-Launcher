@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+*/build/
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Local configuration
+local.properties
+*.properties
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Termux specific
+aapt2-termux-main/
+replace_aapt2.sh
+replace_aapt2_in_cache.sh
+build_with_aapt2_fix.sh
+
+# Build outputs
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Test reports
+test-results/

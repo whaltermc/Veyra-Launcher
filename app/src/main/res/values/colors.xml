@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary - Minecraft grass green -->
+    <color name="primary">#FF4CAF50</color>
+    <color name="primary_variant">#FF388E3C</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <!-- Secondary - Minecraft diamond blue -->
+    <color name="secondary">#FF2196F3</color>
+    <color name="secondary_variant">#FF1976D2</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+
+    <!-- Background - Dark gray (Minecraft dark oak) -->
+    <color name="background">#FF1E1E1E</color>
+    <color name="surface">#FF2C2C2C</color>
+    <color name="on_surface">#FFFFFFFF</color>
+    <color name="surface_variant">#FF3A3A3A</color>
+    <color name="on_surface_variant">#FFBBBBBB</color>
+    <color name="outline">#FF555555</color>
+
+    <!-- Error -->
+    <color name="error">#FFCF6679</color>
+    <color name="on_error">#FF000000</color>
+
+    <!-- Minecraft-specific colors -->
+    <color name="mc_green">#FF55FF55</color>
+    <color name="mc_dark_green">#FF00AA00</color>
+    <color name="mc_red">#FFFF5555</color>
+    <color name="mc_dark_red">#FFAA0000</color>
+    <color name="mc_gold">#FFFFAA00</color>
+    <color name="mc_yellow">#FFFFFF55</color>
+    <color name="mc_aqua">#FF55FFFF</color>
+    <color name="mc_dark_aqua">#FF00AAAA</color>
+    <color name="mc_blue">#FF5555FF</color>
+    <color name="mc_dark_blue">#FF0000AA</color>
+    <color name="mc_light_purple">#FFFF55FF</color>
+    <color name="mc_dark_purple">#FFAA00AA</color>
+    <color name="mc_white">#FFFFFFFF</color>
+    <color name="mc_gray">#FFAAAAAA</color>
+    <color name="mc_dark_gray">#FF555555</color>
+    <color name="mc_black">#FF000000</color>
+
+    <!-- Modloader badge colors -->
+    <color name="fabric_color">#FFD32F2F</color>     <!-- Red -->
+    <color name="quilt_color">#FF7B1FA2</color>     <!-- Purple -->
+    <color name="forge_color">#FFF57C00</color>     <!-- Orange -->
+    <color name="neoforge_color">#FF009688</color>  <!-- Teal -->
+    <color name="vanilla_color">#FF4CAF50</color>   <!-- Green -->
+
+    <!-- Backend indicator colors -->
+    <color name="panvk_color">#FF00BCD4</color>    <!-- Cyan -->
+    <color name="zink_color">#FF9C27B0</color>     <!-- Purple -->
+    <color name="rustgl_color">#FFFF9800</color>   <!-- Orange -->
+    <color name="gl4es_color">#FF795548</color>    <!-- Brown -->
+</resources>
