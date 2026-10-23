@@ -32,7 +32,10 @@ jobs:
         with:
           cmdline-tools-version: latest
           accept-android-sdk-licenses: true
-          packages: platforms;android-34,build-tools;34.0.0,ndk;26.1.10909125
+          packages: |
+            platforms;android-34
+            build-tools;34.0.0
+            ndk;26.1.10909125
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -76,7 +79,9 @@ jobs:
         with:
           cmdline-tools-version: latest
           accept-android-sdk-licenses: true
-          packages: platforms;android-34,build-tools;34.0.0
+          packages: |
+            platforms;android-34
+            build-tools;34.0.0
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -113,7 +118,9 @@ jobs:
         with:
           cmdline-tools-version: latest
           accept-android-sdk-licenses: true
-          packages: platforms;android-34,build-tools;34.0.0
+          packages: |
+            platforms;android-34
+            build-tools;34.0.0
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
@@ -154,7 +161,10 @@ jobs:
         with:
           cmdline-tools-version: latest
           accept-android-sdk-licenses: true
-          packages: platforms;android-34,build-tools;34.0.0,ndk;26.1.10909125
+          packages: |
+            platforms;android-34
+            build-tools;34.0.0
+            ndk;26.1.10909125
 
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
